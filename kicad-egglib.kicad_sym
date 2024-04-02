@@ -13165,6 +13165,24 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 	)
 	(symbol "ZOE-M8Q"
