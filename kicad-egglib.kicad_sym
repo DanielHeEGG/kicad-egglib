@@ -12185,7 +12185,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 5.08 180)
+				(at 12.7 6.35 180)
 				(length 3.81)
 				(name "CC1"
 					(effects
@@ -12239,7 +12239,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
+				(at 12.7 0 180)
 				(length 3.81)
 				(name "SBU1"
 					(effects
@@ -12401,7 +12401,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 2.54 180)
+				(at 12.7 3.81 180)
 				(length 3.81)
 				(name "CC2"
 					(effects
@@ -12455,7 +12455,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at 12.7 -2.54 180)
 				(length 3.81)
 				(name "SBU2"
 					(effects
@@ -12483,6 +12483,24 @@
 					)
 				)
 				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -6.35 180)
+				(length 3.81)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S1"
 					(effects
 						(font
 							(size 1.27 1.27)
