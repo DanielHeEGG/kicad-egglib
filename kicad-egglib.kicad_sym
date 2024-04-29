@@ -630,10 +630,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -12.7 -6.35 0)
 				(length 3.81)
-				(name "SDO2"
+				(name "SA0/SDO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -720,10 +720,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -12.7 -3.81 0)
 				(length 3.81)
-				(name "SDO1"
+				(name "SA0/SDO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -970,8 +970,8 @@
 		)
 		(symbol "BMM150_0_1"
 			(rectangle
-				(start -7.62 11.43)
-				(end 7.62 -11.43)
+				(start -8.89 11.43)
+				(end 8.89 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -983,7 +983,7 @@
 		)
 		(symbol "BMM150_1_1"
 			(pin input line
-				(at -11.43 8.89 0)
+				(at -12.7 8.89 0)
 				(length 3.81)
 				(name "PS"
 					(effects
@@ -1001,9 +1001,9 @@
 				)
 			)
 			(pin input clock
-				(at -11.43 2.54 0)
+				(at -12.7 2.54 0)
 				(length 3.81)
-				(name "SCK"
+				(name "SCL/SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1019,9 +1019,9 @@
 				)
 			)
 			(pin input inverted
-				(at -11.43 5.08 0)
+				(at -12.7 5.08 0)
 				(length 3.81)
-				(name "~{CS}"
+				(name "SA1/~{CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1037,7 +1037,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 5.08 180)
+				(at 12.7 5.08 180)
 				(length 3.81)
 				(name "VDDIO"
 					(effects
@@ -1055,9 +1055,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 0 0)
+				(at -12.7 0 0)
 				(length 3.81)
-				(name "SDI"
+				(name "SDA/SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1072,10 +1072,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -11.43 -2.54 0)
+			(pin bidirectional line
+				(at -12.7 -2.54 0)
 				(length 3.81)
-				(name "SDO"
+				(name "SA0/SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1091,7 +1091,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -3.81 180)
+				(at 12.7 -3.81 180)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -1109,7 +1109,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -6.35 0)
+				(at -12.7 -6.35 0)
 				(length 3.81)
 				(name "INT"
 					(effects
@@ -1127,7 +1127,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -8.89 0)
+				(at -12.7 -8.89 0)
 				(length 3.81)
 				(name "DRDY"
 					(effects
@@ -1145,7 +1145,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -6.35 180)
+				(at 12.7 -6.35 180)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -1163,7 +1163,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -8.89 180)
+				(at 12.7 -8.89 180)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -1181,7 +1181,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 8.89 180)
+				(at 12.7 8.89 180)
 				(length 3.81)
 				(name "VDD"
 					(effects
@@ -1319,7 +1319,7 @@
 			(pin input clock
 				(at -11.43 3.81 0)
 				(length 3.81)
-				(name "SCK"
+				(name "SCL/SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1355,7 +1355,7 @@
 			(pin bidirectional line
 				(at -11.43 1.27 0)
 				(length 3.81)
-				(name "SDI"
+				(name "SDA/SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 			(pin bidirectional line
 				(at -11.43 -1.27 0)
 				(length 3.81)
-				(name "SDO"
+				(name "SA0/SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2433,7 +2433,7 @@
 			(pin input clock
 				(at -12.7 7.62 0)
 				(length 3.81)
-				(name "SCK/SCL"
+				(name "SCL/SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 			(pin bidirectional line
 				(at -12.7 5.08 0)
 				(length 3.81)
-				(name "SDI/SDA"
+				(name "SDA/SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2487,7 +2487,7 @@
 			(pin bidirectional line
 				(at -12.7 2.54 0)
 				(length 3.81)
-				(name "SDO/ADDR"
+				(name "SA0/SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2993,7 +2993,7 @@
 			(pin bidirectional line
 				(at -12.7 1.27 0)
 				(length 3.81)
-				(name "SDO/ADDR"
+				(name "SA0/SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3047,7 +3047,7 @@
 			(pin input clock
 				(at -12.7 6.35 0)
 				(length 3.81)
-				(name "SCK/SCL"
+				(name "SCL/SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3065,7 +3065,7 @@
 			(pin bidirectional line
 				(at -12.7 3.81 0)
 				(length 3.81)
-				(name "SDI/SDA"
+				(name "SDA/SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3345,7 +3345,7 @@
 			(pin input inverted
 				(at -12.7 -3.81 0)
 				(length 3.81)
-				(name "~{CS}"
+				(name "SA0/~{CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3363,7 +3363,7 @@
 			(pin input inverted
 				(at 12.7 -3.81 180)
 				(length 3.81)
-				(name "~{CS}"
+				(name "SA0/~{CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3399,7 +3399,7 @@
 			(pin bidirectional line
 				(at 12.7 1.27 180)
 				(length 3.81)
-				(name "SDI/SDA"
+				(name "SDA/SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3417,7 +3417,7 @@
 			(pin input clock
 				(at 12.7 3.81 180)
 				(length 3.81)
-				(name "SCK/SCL"
+				(name "SCL/SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3661,7 +3661,7 @@
 			(pin output line
 				(at -15.24 -3.81 0)
 				(length 3.81)
-				(name "MISO"
+				(name "SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3679,7 +3679,7 @@
 			(pin input line
 				(at -15.24 -1.27 0)
 				(length 3.81)
-				(name "MOSI"
+				(name "SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15206,7 +15206,7 @@
 			(pin input line
 				(at -30.48 12.7 0)
 				(length 3.81)
-				(name "RX/MOSI"
+				(name "RX/SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15224,7 +15224,7 @@
 			(pin output line
 				(at -30.48 10.16 0)
 				(length 3.81)
-				(name "TX/MISO"
+				(name "TX/SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
