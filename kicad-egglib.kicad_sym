@@ -251,7 +251,7 @@
 				)
 			)
 			(circle
-				(center 2.54 -1.27)
+				(center 2.54 -8.89)
 				(radius 0.0001)
 				(stroke
 					(width 0.5)
@@ -262,7 +262,7 @@
 				)
 			)
 			(circle
-				(center 2.54 8.89)
+				(center 2.54 1.27)
 				(radius 0.0001)
 				(stroke
 					(width 0.5)
@@ -318,7 +318,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -10.16 180)
+				(at 6.35 10.16 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -372,7 +372,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 10.16 180)
+				(at 6.35 -10.16 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -1151,7 +1151,7 @@
 				)
 			)
 			(circle
-				(center 2.54 -2.54)
+				(center 2.54 -10.16)
 				(radius 0.0001)
 				(stroke
 					(width 0.5)
@@ -1162,7 +1162,7 @@
 				)
 			)
 			(circle
-				(center 2.54 10.16)
+				(center 2.54 2.54)
 				(radius 0.0001)
 				(stroke
 					(width 0.5)
@@ -1236,7 +1236,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 11.43 180)
+				(at 6.35 -11.43 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -1254,7 +1254,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -1.27 180)
+				(at 6.35 1.27 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -1272,7 +1272,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
+				(at 6.35 -1.27 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -1290,7 +1290,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -11.43 180)
+				(at 6.35 11.43 180)
 				(length 3.81)
 				(name "~"
 					(effects
