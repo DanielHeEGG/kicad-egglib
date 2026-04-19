@@ -11527,7 +11527,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 13.97 -7.62 180)
+				(at 13.97 -11.43 180)
 				(length 3.81)
 				(name "PG"
 					(effects
@@ -11563,7 +11563,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -11.43 180)
+				(at 0 17.78 270)
 				(length 3.81)
 				(name "PGFB"
 					(effects
@@ -11825,7 +11825,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 13.97 -7.62 180)
+				(at 13.97 -11.43 180)
 				(length 3.81)
 				(name "PG"
 					(effects
@@ -11843,7 +11843,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -11.43 180)
+				(at 0 17.78 270)
 				(length 3.81)
 				(name "PGFB"
 					(effects
